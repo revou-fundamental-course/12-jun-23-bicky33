@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeff1;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #bacd88;
+  border-radius: 12px;
+}
+
+.block {
+  display: block;
+}
+
+.input-group {
+  margin: 10px 0;
+}
+
+input {
+  width: 100%;
+  border: 1px solid black;
+  margin: 10px 0 30px 0;
+  padding: 20px;
+  font-size: 18px;
+}
+
+select {
+  width: 100%;
+  border: 1px solid black;
+  font-size: 18px;
+  margin: 10px 0 30px 0;
+  padding: 15px;
+}
+
+.input-group label {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid black;
+
+}
+
+.convert {
+  color: #ffff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: 0 6px #00265f;
+}
+
+.convert:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}

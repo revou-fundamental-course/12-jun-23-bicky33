@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>Konverter</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="center">
+      Converter Celsius or Fahrenheit
+    </h1>
+    <div class="card">
+      <div class="input-group">
+        <label for="option">Convert to</label>
+        <select id="option">
+          <option value="" disabled selected>Choose convert</option>
+          <option value="celcius">Celsius</option>
+          <option value="farentheit">Farentheit</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="temprature">Temprature</label>
+        <input type="number" id="temprature">
+      </div>
+      <div class="input-group">
+        <label for="result">Result</label>
+        <input type="text" id="result" disabled placeholder="result will appear here">
+      </div>
+      <div class="input-group">
+        <label for="count">Solution Step</label>
+        <textarea  id="step" disabled placeholder="step will appear here" rows="10"></textarea>
+      </div>
+      <button id="convert" class="convert">Convert</button>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
